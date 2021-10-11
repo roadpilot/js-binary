@@ -22,7 +22,7 @@ var search = function(nums, target) {
             left = pivot + 1
         }
     }
-    return false
+    return -1
 };
 
 let nums = [-1,0,3,5,9,12]
